@@ -4,13 +4,9 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.10.2",
-    "@storybook/cli": "^5.3.19",
-    "@storybook/react": "^5.3.19",
-    "init": "^0.1.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "^3.4.1",
-    "sb": "^5.3.19"
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
