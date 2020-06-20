@@ -7,4 +7,3 @@ The goal is for me to get a hands-on experience on React-related techonology/lib
 ### Current Tech Stack
 
 - React
-  s
