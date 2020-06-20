@@ -4,14 +4,20 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.10.2",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.38",
+    "@types/react-dom": "^16.9.8",
+    "clsx": "^1.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "typescript": "^3.9.5"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired start",
-    "test": "react-app-rewired start",
+    "start": "react-scripts start",
+    "build": "react-scripts start",
+    "test": "react-scriptsstart",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
