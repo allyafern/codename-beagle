@@ -5,16 +5,17 @@
   "dependencies": {
     "@material-ui/core": "^4.10.2",
     "@storybook/cli": "^5.3.19",
+    "@storybook/react": "^5.3.19",
     "init": "^0.1.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1",
+    "react-scripts": "^3.4.1",
     "sb": "^5.3.19"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired start",
+    "test": "react-app-rewired start",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -31,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "flow-bin": "^0.127.0",
+    "react-app-rewired": "^2.1.6"
   }
 }
